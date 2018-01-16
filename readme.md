@@ -52,7 +52,7 @@ What you need to do:
  - Implement the incomplete `/factories/search` resource. It should return the first matching (by name) factory. Don't worry about duplicates, or about being case sensitive, just return the first factory. *Note: there are currently 2 failing tests because the `/factories/search` resource is incomplete.* 
  - Create a new resource for brands. This resource should have the endpoint `/brands`. The brands resource should have the same fields as the factories resource. 
  - **We want to store both brands and factories in a generic `companies` table.** For this exercise, the `companies` table is represented by the json files in the `/store/companies` directories. A `company_type` property should be used to specify if the company is a brand or factory. Change the factory and brand resources to account for this.
- - Add tests to account for of these changes.
+ - Add tests to account for these changes.
  - Push the altered application to a public repository in your GitHub account, and send a link to that repository to [dev@makersrow.com](mailto:dev@makersrow.com) 
 
 Bonus
